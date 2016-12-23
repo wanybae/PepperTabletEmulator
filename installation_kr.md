@@ -69,7 +69,7 @@ cp qimessaging-json /usr/local/bin
 - 압축을 풀고, 압축을 푼 폴더에서 다음을 실행한다.
 
     ```
-sudo ./setup.py install
+sudo python ./setup.py install
 ```
 
 ## Pepper Tablet Emulator 셋업
