@@ -12,15 +12,18 @@ Pepper Tablet Emulator 셋업순서(Mac버전)
     (리소스에 접근하기 위해서는 Aldebara 디벨로퍼 프로그램에 등록해 두어야 한다. 우선은 [Create New Customer Account](https://store.aldebaran.com/default/customer/account/create/) 에서 유저등록을 진행하고, 다음으로는 [Developers | SoftBank Robotics Community](https://community.ald.softbankrobotics.com/en/developerprogram#section3) 에서 디벨로퍼 프로그램을 등록한다.）
 
 - 다운로드한 파일 압축풀기
+
 - 특정 폴더에 압축을 푼다. 예를들어 사용자 디렉토리의 naoqi 디렉토리 밑에 저장
-    
+
     ```
 예)
-    mkdir -p ~/naoqi
-    cp -r pynaoqi-python2.7-2.4.2.26-mac64  ~/naoqi
-　```
+mkdir -p ~/naoqi
+cp -r pynaoqi-python2.7-2.4.2.26-mac64  ~/naoqi
+```
+
 
 ## nginx 인스톨, 셋업
+
 - 인스톨
 
     ```
@@ -37,6 +40,7 @@ Pepper Tablet Emulator 셋업순서(Mac버전)
     ```
 
 ## libqi-js 셋업
+
 - https://github.com/aldebaran/libqi-js/ 에서  [Download ZIP] 버튼을 눌러 libqi-js아카이브를 얻는다.
 
 - 압축을 풀고, 압축을 푼 폴더에서 다음을 실행한다.
